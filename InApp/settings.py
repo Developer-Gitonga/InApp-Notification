@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'service',
     'rest_framework',
     'drf_yasg',
+    'channels'
 ]
 
 MIDDLEWARE = [
@@ -71,6 +72,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'InApp.wsgi.application'
+ASGI_APPLICATION = 'InApp.routing.application'
+
 
 
 # Database
