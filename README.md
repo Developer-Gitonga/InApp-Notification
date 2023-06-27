@@ -29,3 +29,6 @@ Now its time to run the code
 
          python3 manage.py runserver
 
+
+
+python3 -m venv venv
